@@ -1,6 +1,6 @@
 body {
   font-family: 'Josefin Sans';
-  background-color: #FFFAFB;
+  background-color: #F4F4F4;
 }
 
 * {
@@ -141,4 +141,13 @@ body {
   .exercise-card {
     width: 280px;
   }
+}
+
+
+/* App.css */
+.explore-btn:hover {
+  background-color: #007b8a; /* Darker shade of the original color */
+  color: #ffffff; /* Keeping the text color white */
+  transform: scale(1.05); /* Slightly enlarges the button on hover */
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
